@@ -1,0 +1,11 @@
+.carousel-caption
+{
+	background-color: #4CAF50;
+	/*opacity: 0.7;*/
+	border-radius: 5px;
+	width: 220px;
+	height: auto;
+	margin: auto;
+	align-items: center;
+	cursor: pointer;
+}
