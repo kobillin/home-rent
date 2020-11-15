@@ -153,4 +153,18 @@ if (isset($_GET['deleteb'])) {
 
     }
 }
+
+function logged_in()
+{
+	if (isset($_SESSION['username'])) 
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
+}
+
+
  ?>

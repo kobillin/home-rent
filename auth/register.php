@@ -23,7 +23,7 @@
 				$stmt->execute(array(
 					':fullname' => $fullname,
 					':username' => $username,
-					':password' => md5($password),
+					':password' => ($password),
 					':email' => $email,
 					':mobile' => $mobile,
 					));

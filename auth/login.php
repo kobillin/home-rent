@@ -20,7 +20,7 @@
 				$errMsg = "User $username not found.";
 			}
 			else {
-				if(md5($password) == $data['password']) {
+				if(($password) == $data['password']) {
 					$_SESSION['id'] = $data['id'];
 					$_SESSION['username'] = $data['username'];
 					$_SESSION['fullname'] = $data['fullname'];

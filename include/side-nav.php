@@ -18,17 +18,18 @@
             <li class="nav-item">
             	<?php if($_SESSION['role'] == 'admin' || $_SESSION['role'] == 'user'){ 
 	        		echo '<a href="../app/register.php" class="nav-link">Add Property</a>';
+              echo '<a href="../auth/profile.php" class="nav-link">Change/Password</a>';
 	      	 	} ?>             
             </li>
             <li class="nav-item">
 	        	<a href="../app/list.php" class="nav-link">Details/Update</a>
             </li>
 
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <?php if($_SESSION['role'] == 'admin'){ 
                 echo '<a href="../app/sms.php" class="nav-link">Send SMS</a>';
               } ?>
-            </li>
+            </li> -->
 
             <li class="nav-item">
               <?php if($_SESSION['role'] == 'admin'){ 
